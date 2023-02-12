@@ -174,6 +174,8 @@
 
 .btn-projects:hover{
     background-color: transparent;
+    color: var(--main-text-color);
+    text-decoration: none;
 }
 
 
@@ -268,6 +270,51 @@ a small{
 }
 .link:hover{
     text-decoration: underline;
+    color: var(--main-text-color);
+}
+
+/* *********************Projetos******************************* */
+
+.container-projetos{
+    background-color: var(--bio-bg-color);
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.projeto{
+    background: var(--color-bg-courses);
+    max-width: 240px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.projeto img{
+   width: 100%;
+   border-radius: 10px 10px 0 0;
+   border-bottom: 3px solid var(--border-color);
+}
+.projeto a,
+.projeto p{
+    margin: 10px;
+}
+
+.link-project{
+    color: var(--main-color);
+    width: 90%;
+    display: block;
+    text-align: end;
+    font-weight: 600; 
+    display: flex;
+
+    align-items: center; 
+    justify-content: flex-end;  
+}
+.link-project:hover{
+    color: var(--main-text-color);
 }
 
 /* *********************************************************************MOBILE******************************************************************* */
@@ -338,4 +385,7 @@ a small{
         display: none;
     }
 
+    .conteudo-curso{
+        line-height: 1;
+    }
 }
