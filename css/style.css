@@ -281,7 +281,7 @@ a small{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 20px;
     margin-bottom: 20px;
 }
